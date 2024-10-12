@@ -8,6 +8,7 @@ import { rateLimitOptions } from './constants/rate-limit';
 import { AuthModule } from './modules/auth/auth.module';
 import { SystemModule } from './modules/system/system.module';
 import { UserModule } from './modules/users/user.module';
+import { NewsModule } from './modules/news/news.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { UserModule } from './modules/users/user.module';
     SystemModule,
     AuthModule,
     UserModule,
+    NewsModule,
   ],
 })
 export class AppModule {}
